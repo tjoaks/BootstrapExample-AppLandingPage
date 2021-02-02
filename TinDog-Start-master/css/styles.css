@@ -1,0 +1,187 @@
+/* html selectors*/
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bolder;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+body{
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+/*nav bar*/
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Ubuntu';
+  font-weight: thin;
+}
+
+/* containers*/
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* TITLE TAG */
+
+#title{
+ background-color: #ff4c68
+}
+
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+
+/* Title Image */
+
+.title-image{
+ width: 50%;
+ transform: rotate(30deg);
+ position: absolute;
+ right: 30%;
+}
+
+/* features section */
+
+#features{
+  background-color: #fff;
+  position: relative;
+}
+
+.check-circle{
+  font-size: 5rem;
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.check-circle:hover{
+    color: #ff4c68;
+}
+
+.bullseye{
+  font-size: 5rem;
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.bullseye:hover{
+    color: #ff4c68;
+  }
+
+.heart{
+  font-size: 5rem;
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.heart:hover{
+    color: #ff4c68;
+  }
+
+  /* testimonials section*/
+
+  #testimonials{
+
+text-align: center;
+background-color: #ef8172;
+color: #ffff;
+  }
+
+  .testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-item{
+    padding: 7% 15%;
+  }
+
+  /* press section*/
+
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+  }
+
+
+  /* pricing section */
+
+  #pricing{
+    padding: 100px;
+  }
+
+  .pricing-column{
+    padding: 3% 2%;
+  }
+
+  @media (max-width: 1028px){
+    .title-image{
+      position: static;
+      transform: rotate(0);
+      text-align: center;
+    }
+    #title{
+      text-align:center;
+    }
+  }
+
+  .pricing-column-last{
+padding: 3% 2%;
+  }
+
+  /* call to action section */
+
+  #cta{
+    background-color: #ff4c68
+  }
+
+  .true-love-cta{
+    background-color: #ff4c68;
+    padding: 7% 15% 5%;
+  }
+
+  /* footer section */
+
+  #footer{
+    padding: 7% 5%;
+    color: grey;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .footer-text{
+    text-align: center;
+    font-family: "Ubuntu";
+  }
+.social-icon{
+  margin: 1%;
+}
